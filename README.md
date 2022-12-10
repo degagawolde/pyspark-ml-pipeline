@@ -27,6 +27,8 @@ An Estimator implements the fit() method on a dataframe and produces a model. Fo
 
 ![ml](https://cdn.analyticsvidhya.com/wp-content/uploads/2019/11/pipeline_lr.png)
 
+We have to define the stages by providing the input column name and output column name. The final stage would be to build a logistic regression model. And in the end, when we run the pipeline on the training dataset, it will run the steps in a sequence and add new columns to the dataframe (like rawPrediction, probability, and prediction).
+
 # References
 - https://www.guru99.com/pyspark-tutorial.html
 - https://intellipaat.com/blog/tutorial/spark-tutorial/machine-learning-with-pyspark-tutorial/
