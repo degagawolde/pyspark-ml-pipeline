@@ -16,6 +16,9 @@ Apache Spark comes with a library named MLlib to perform Machine Learning tasks 
 - Runs: Runs on that particular delivery (Integer)
 - Timestamp: Time at which the data was recorded (Timestamp)
 
+# ML Pipeline 
+[pipeline](https://cdn.analyticsvidhya.com/wp-content/uploads/2019/11/basic_pipeline.png)
+
 # References
 - https://www.guru99.com/pyspark-tutorial.html
 - https://intellipaat.com/blog/tutorial/spark-tutorial/machine-learning-with-pyspark-tutorial/
