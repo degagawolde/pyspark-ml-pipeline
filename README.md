@@ -16,15 +16,16 @@ Apache Spark comes with a library named MLlib to perform Machine Learning tasks 
 - Runs: Runs on that particular delivery (Integer)
 - Timestamp: Time at which the data was recorded (Timestamp)
 
-# ML Pipeline 
+# Transformers and Estimators
 
 ![pipeline](https://cdn.analyticsvidhya.com/wp-content/uploads/2019/11/basic_pipeline.png)
 
-## Transformers and Estimators
+
 As the name suggests, Transformers convert one dataframe into another either by updating the current values of a particular column (like converting categorical columns to numeric) or mapping it to some other values by using a defined logic.
 
 An Estimator implements the fit() method on a dataframe and produces a model. For example, LogisticRegression is an Estimator that trains a classification model when we call the fit() method.
 
+# ML Pipeline
 ![ml](https://cdn.analyticsvidhya.com/wp-content/uploads/2019/11/pipeline_lr.png)
 
 We have to define the stages by providing the input column name and output column name. The final stage would be to build a logistic regression model. And in the end, when we run the pipeline on the training dataset, it will run the steps in a sequence and add new columns to the dataframe (like rawPrediction, probability, and prediction).
