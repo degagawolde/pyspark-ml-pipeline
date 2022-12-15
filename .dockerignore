@@ -1,0 +1,7 @@
+scripts
+data
+.history
+env
+notebooks
+.gitignore
+docker-compose
