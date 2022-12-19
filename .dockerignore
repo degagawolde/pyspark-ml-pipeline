@@ -1,7 +1,7 @@
-scripts
-data
-.history
-env
-notebooks
+scripts/
+data/
+.history/
+env/
+notebooks/
 .gitignore
 docker-compose
