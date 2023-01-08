@@ -8,5 +8,6 @@ WORKDIR /app
 # RUN mv postgresql-42.2.5.jar /opt/spark/jars
 RUN pip3 install --upgrade pip
 RUN pip3 install pyspark numpy
+RUN addgroup app && adduser -S -G app app
 CMD [ "python","main.py" ]
 
